@@ -1,3 +1,23 @@
 .body-top-pad {
   padding-top: 56px;
 }
+
+.bg-offwhite {
+  background-color: #DBDDD8;
+}
+
+.bg-white {
+  background-color: #FFF;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.txt-white {
+  color: #FFF important;
+}
+
+.testing {
+  font-family: 'object_sansheavy', sans-serif;
+}
