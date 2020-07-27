@@ -39,32 +39,48 @@
 </header>
 
 
+
+
+
 <body class="body-top-pad ">
 
   <div id="myNav" class="overlay">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-      <span style="font-size:25px;cursor:pointer">&#9776; </span>
+      <span style="font-size:35px;cursor:pointer">&times; </span>
     </a>
     <div class="overlay-content">
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Clients</a>
-      <a href="#">Contact</a>
+      <a href="#">Home</a>
+      <a href="#">Insight 1</a>
+      <a href="#">Insight 2</a>
+      <a href="#">More Resources</a>
     </div>
   </div>
 
+
+
+
+
+
+
   <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-offwhite">
-    <div class="col-md-9 p-lg-5 mx-auto my-5">
-      <h1 class="display-4 font-weight-normal">This is the grand statement of our campaign, it has photos to break things up.</h1>
-      <!-- <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple's marketing pages.</p> -->
-      <!-- <a class="btn btn-outline-secondary" href="https://getbootstrap.com/docs/4.0/examples/product/#">Coming soon</a> -->
-    </div>
-    <!-- <div class="product-device box-shadow d-none d-md-block"></div>
-    <div class="product-device product-device-2 box-shadow d-none d-md-block"></div> -->
     <div class="container">
-      <div class="card my-4 bg-offwhite">
-        <div class="card-body testing">
-          This is some text within a card body. (Object Sans)
+      <div class="row">
+        <div class="col-10 text-left">
+          <span class="banner">
+            This is the grand <img class="banner-img" src="img/filler01.jpg" alt="">
+            statement of <img class="banner-img" src="img/filler01.jpg" alt="">
+            our campaign, it has photos <img class="banner-img" src="img/filler01.jpg" alt="">
+            to break things up.
+          </span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-2 text-left">
+          watch
+        </div>
+        <div class="col-2 text-left align-self-end">
+          social media
         </div>
       </div>
     </div>
@@ -104,20 +120,15 @@
 
   <!-- Optional JavaScript -->
   <script>
-    function openNav() {
-      document.getElementById("myNav").style.height = "100%";
-      // var element = document.getElementById("headerbar");
-      // element.remove("navbar-light");
-      // console.log("removed light")
-      // element.classList.add("navbar-dark");
-      // console.log("removed dark")
+  /* Open when someone clicks on the span element */
+function openNav() {
+document.getElementById("myNav").style.width = "400px";
+}
 
-
-    }
-
-    function closeNav() {
-      document.getElementById("myNav").style.height = "0%";
-    }
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+document.getElementById("myNav").style.width = "0%";
+}
   </script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
