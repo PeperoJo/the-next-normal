@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/splash.css">
   <link rel="stylesheet" href="css/product.css">
 
 </head>
@@ -25,9 +26,7 @@
       </div>
       <div class="mx-auto order-0">
         <a class="navbar-brand mx-auto logo" href="#">#SilenceSpeaks</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+
       </div>
       <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav  ml-auto w-100 justify-content-end">
@@ -44,7 +43,7 @@
 
 
 
-<body class="body-top-pad ">
+<body class="body-top-pad" id="main">
 
   <div id="myNav" class="overlay">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
@@ -56,6 +55,40 @@
       <a href="#">Insight 2</a>
       <a href="#">Insight 3</a>
       <a href="#">More Resources</a>
+    </div>
+  </div>
+
+
+  <div id="mySplash" class="splash body-top-pad">
+    <nav class="navbar fixed-top navbar-expand navbar-dark" id="">
+      <div class="container">
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+          <ul class="navbar-nav mr-auto"></ul>
+        </div>
+        <div class="mx-auto order-0">
+          <a class="navbar-brand mx-auto logo" href="#">#SilenceSpeaks</a>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+          <ul class="navbar-nav  ml-auto w-100 justify-content-end">
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-offwhite">
+      <div class="container banner-container">
+        <div class="row">
+          <div class="col-10 text-left">
+            <span class="banner">
+              What are the new expectations for brands among gen z.?
+            </span>
+          </div>
+        </div>
+        <div class="pt-5">
+          <button type="button" class="btn btn-outline-dark" onclick="closeSplash()" >Learn More</button>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -230,6 +263,18 @@
     /* Close when someone clicks on the "x" symbol inside the overlay */
     function closeNav() {
       document.getElementById("myNav").style.width = "0%";
+    }
+
+    document.documentElement.style.overflow = 'hidden';
+    document.body.scroll = "no";
+
+    function closeSplash() {
+      document.getElementById("mySplash").style.opacity ="0";
+      document.getElementById("mySplash").style.visibility ="hidden";
+      document.documentElement.style.overflow = 'scroll';
+      document.body.scroll = "yes";
+      // document.documentElement.style.overflow = 'hidden';
+
     }
   </script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
