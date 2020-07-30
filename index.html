@@ -37,6 +37,9 @@
       </div>
     </div>
   </nav>
+  <div class="progress-container body-top-pad py-1">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
 </header>
 
 
@@ -274,7 +277,16 @@
       document.documentElement.style.overflow = 'scroll';
       document.body.scroll = "yes";
       // document.documentElement.style.overflow = 'hidden';
+    }
 
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myFunction()};
+
+    function myFunction() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.width = scrolled + "%";
     }
   </script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
