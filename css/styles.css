@@ -31,7 +31,7 @@
 .banner {
   font-family: 'Object Sans', sans-serif;
   font-weight: normal;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 50px;
   line-height: 105%;
 }
@@ -57,7 +57,7 @@
     text-align: left!important
   }
   .banner-social {
-    text-align: right!important
+    text-align: left!important
   }
 }
 
@@ -98,4 +98,64 @@
   width: 0%;
   border-style: solid;
   border-color: black;
+}
+
+
+.btn-outline-green {
+  color: #C7FE1A;
+  border-color: #C7FE1A;
+}
+
+.btn-outline-green:hover {
+  color: black;
+  background-color: #C7FE1A;
+}
+
+mark {
+  background-color: #C7FE1A;
+  color: black;
+}
+
+#mainbanner {
+  background: url('../img/InitialMoment_PicBG_Div.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#bg-action {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#bg-action1 {
+  background: url('../img/JPGs/Action1_Landing_Img@1x.jpg');
+}
+
+#bg-action2 {
+  background: url('../img/JPGs/Action2_Landing_Img@1x.jpg');
+}
+
+#bg-action3 {
+  background: url('../img/JPGs/Action3_Landing_Img@1x.jpg');
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
 }
