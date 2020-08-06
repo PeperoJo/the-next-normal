@@ -48,8 +48,8 @@
 }
 
 .banner-container {
-  padding-top: 6.5rem;
-  padding-bottom: 6.5rem;
+  padding-top: 15rem;
+  padding-bottom: 5rem;
 }
 
 @media (min-width: 768px) {
@@ -155,6 +155,12 @@ mark {
     width: 50vw;
     /* min-width: 100%;
     min-height: 100% */
+}
+
+.fill-fit img {
+    flex-shrink: 0;
+    min-width: 100% !important;
+    min-height: 100% !important
 }
 
 .fill-left {
