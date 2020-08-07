@@ -22,18 +22,33 @@
   font-family: 'Object Sans', sans-serif;
 }
 
-.logo {
+/* .logo {
   font-family: 'Object Sans', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
+} */
+
+.logo {
+  /* height: 28px;
+  width: 620px; */
+  color: #E4E2DB;
+  font-family: "Degular Text", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: center;
 }
 
 .banner {
-  font-family: 'Object Sans', sans-serif;
-  font-weight: normal;
-  /* text-transform: uppercase; */
-  font-size: 50px;
-  line-height: 105%;
+  /* height: 216px;
+  width: 940px; */
+  color: #E4E2DB;
+  font-family: "Degular Display", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 72px;
 }
 
 .banner-img {
@@ -50,6 +65,10 @@
 .banner-container {
   padding-top: 15rem;
   padding-bottom: 5rem;
+}
+
+.socialicons {
+  padding-right: 25px;
 }
 
 @media (min-width: 768px) {
@@ -94,27 +113,28 @@
 /* The progress bar (scroll indicator) */
 .progress-bar {
   height: 2px;
-  background: #C7FE1A;
+  background: #D9FA59;
   width: 0%;
   border-style: solid;
   border-width: thin;
-  border-color: #C7FE1A;
+  border-color: #D9FA59;
 }
 
 
 .btn-outline-green {
-  color: #C7FE1A;
-  border-color: #C7FE1A;
+  color: #D9FA59;
+  border-color: #D9FA59;
 }
 
 .btn-outline-green:hover {
   color: black;
-  background-color: #C7FE1A;
+  background-color: #D9FA59;
 }
 
 mark {
-  background-color: #C7FE1A;
+  background-color: #D9FA59;
   color: black;
+  padding: 0 0.06em;
 }
 
 #mainbanner {
@@ -180,4 +200,52 @@ mark {
 
 .bg-gradient {
     background: linear-gradient(to bottom, black 0%, rgba(0,0,0,0) 100%);
+}
+
+.banner-sub {
+  height: 40px;
+  width: 596px;
+  color: #E4E2DB;
+  font-family: "Degular Text", sans-serif;
+  font-size: 33px;
+  letter-spacing: 0;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+.subhead {
+  height: 21px;
+  width: 220px;
+  color: #000000;
+  font-family: "Degular Text", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+  text-transform: uppercase;
+
+}
+
+.text2 {
+  height: 200px;
+  width: 940px;
+  color: #000000;
+  font-family: "Degular Text", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.action-title {
+  /* height: 216px;
+  width: 380px; */
+  color: #E4E2DB;
+  font-family: "Degular Display", sans-serif;
+  text-transform: uppercase;
+
+  font-size: 58px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 72px;
 }

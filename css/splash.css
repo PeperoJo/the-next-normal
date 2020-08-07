@@ -26,8 +26,6 @@
   width: 100%; /* 100% width */
   text-align: center; /* Centered text/links */
   margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
-  font-family: 'Object Sans', sans-serif;
-  font-weight: normal;
   text-transform: uppercase;
   color: white;
 
@@ -69,4 +67,41 @@
     top: 15px;
     right: 35px;
   }
+}
+
+.splash-banner {
+  /* height: 240px;
+  width: 959px; */
+  color: #E4E2DB;
+  font-family: "Degular Display", sans-serif;
+  font-size: 140px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 85%;
+  text-transform: uppercase;
+
+}
+
+.splash-banner2 {
+  /* height: 240px;
+  width: 959px; */
+  color: #E4E2DB;
+  font-family: "Degular Display", sans-serif;
+  font-size: 130px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 85%;
+  text-transform: uppercase;
+
+}
+
+
+.splash-sub {
+  height: 104px;
+  width: 645px;
+  color: #E4E2DB;
+  font-family: "Degular Text", sans-serif;
+  font-size: 45px;
+  letter-spacing: 2px;
+  line-height:120%;
 }
