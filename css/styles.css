@@ -1,9 +1,14 @@
+/* body {
+  max-width: 1440px;
+  margin: auto;
+} */
+
 .body-top-pad {
   padding-top: 41px;
 }
 
 .bg-offwhite {
-  background-color: #DBDDD8;
+  background-color: #E4E2DB;
 }
 
 .bg-white {
@@ -248,4 +253,12 @@ mark {
   font-weight: 600;
   letter-spacing: 0;
   line-height: 72px;
+}
+
+#pledgebox {
+  background: url('../img/JPGs/Pledge_Img@1x.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
