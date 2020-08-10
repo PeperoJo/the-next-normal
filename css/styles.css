@@ -348,7 +348,9 @@ margin-bottom: auto;
 }
 
 .quoteperson {
-  white-space:nowrap;
+  word-wrap: break-word;
+
+  /* white-space:nowrap; */
   color: #E4E2DB;
   font-family: "Degular Text", sans-serif;
   font-weight: 300;
