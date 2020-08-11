@@ -152,6 +152,22 @@ mark {
   background-size: cover;
 }
 
+#mainbanner2 {
+  background: url('../img/JPGs/Action1_Landing_Img@1x.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#mainbanner3 {
+  background: url('../img/JPGs/Action2_Landing_Img@1x.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #bg-action {
   -webkit-background-size: cover;
   -moz-background-size: cover;
