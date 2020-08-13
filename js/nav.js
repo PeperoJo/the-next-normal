@@ -1,5 +1,16 @@
 function openNav() {
-  document.getElementById("myNav").style.width = "300px";
+  var menuwidth = "";
+
+  var width = window.innerWidth
+|| document.documentElement.clientWidth
+|| document.body.clientWidth;
+
+  if (width > 768){
+    menuwidth = "50%";
+  } else {
+    menuwidth = "100%";
+  }
+  document.getElementById("myNav").style.width = menuwidth;
 }
 
 /* Close when someone clicks on the "x" symbol inside the overlay */
@@ -27,7 +38,7 @@ var navbar =
         <ul class="navbar-nav mr-auto"></ul>
       </div>
       <div class="mx-auto order-0">
-        <a class="navbar-brand mx-auto logo text-white" href="#">Silence Speaks</a>
+        <a class="navbar-brand mx-auto logo text-white" href="index.html">Silence Speaks</a>
 
       </div>
       <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
@@ -53,10 +64,10 @@ var bodymain = document.getElementById("main");
 var navmenu = `
   <div id="myNav" class="overlay">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-      <span style="font-size:35px;cursor:pointer">&times; </span>
+      <span style="font-size:65px;cursor:pointer">&times; </span>
     </a>
     <div class="overlay-content">
-      <a href="index.html">Home</a>
+      <a href="index.html?home=true">Home</a>
       <a href="action1.html">Action 1</a>
       <a href="action2.html">Action 2</a>
       <a href="action3.html">Action 3</a>
@@ -106,10 +117,10 @@ var footer = `
     <div class="col-6 col-md-2">
       <!-- <h5>Resources</h5> -->
       <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="https://getbootstrap.com/docs/4.0/examples/product/#">About</a></li>
-        <li><a class="text-muted" href="https://getbootstrap.com/docs/4.0/examples/product/#">Contact</a></li>
-        <li><a class="text-muted" href="https://getbootstrap.com/docs/4.0/examples/product/#">Sign the Pledge</a></li>
-        <li><a class="text-muted" href="https://getbootstrap.com/docs/4.0/examples/product/#">Hear our Voice</a></li>
+        <li><a class="text-muted" href="about.html">About</a></li>
+        <li><a class="text-muted" href="about.html">Contact</a></li>
+        <li><a class="text-muted" href="pledge.html">Sign the Pledge</a></li>
+        <li><a class="text-muted" href="#">Hear our Voice</a></li>
       </ul>
     </div>
     <div class="col-6 col-md-2">

@@ -11,6 +11,10 @@
   background-color: #E4E2DB;
 }
 
+.bg-neon {
+  background-color: #D9FA59;
+}
+
 .bg-white {
   background-color: #FFF;
 }
@@ -161,7 +165,15 @@ mark {
 }
 
 #mainbanner3 {
-  background: url('../img/JPGs/Action2_Landing_Img@1x.jpg');
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/JPGs/Action2_Landing_Img@1x.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#mainbanner4 {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/JPGs/Action3_Landing_Img@1x.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -186,6 +198,8 @@ mark {
 #bg-action3 {
   background: url('../img/JPGs/Action3_Landing_Img@1x.jpg');
 }
+
+
 
 .fill {
     display: flex;
@@ -319,7 +333,7 @@ margin-bottom: auto;
 .footer-icon {
   color: #E4E2DB;
   font-family: "Degular Display", sans-serif;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 35px;
   font-weight: bold;
   letter-spacing: 0;
@@ -342,7 +356,7 @@ margin-bottom: auto;
   z-index: 1000;
   position: fixed;
   bottom: 10%;
-  right: 10%;
+  right: 90px;;
   width: 160px;
 }
 
@@ -415,4 +429,93 @@ line-height: 32px;
   font-size: 48px;
   letter-spacing: 0;
   line-height: 52px;
+}
+
+.hoverzoom {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.aboutheader {
+  /* height: 216px;
+  width: 940px; */
+  color: #D9FA59;
+  font-family: "Degular Display", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 72px;
+  text-transform: uppercase;
+
+}
+
+.about-us {
+
+  color: #E4E2DB;
+  font-family: "Degular Text", sans-serif;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 45px;
+  font-weight: 300;
+
+}
+
+.about-desc {
+  color: #E4E2DB;
+  font-family: "Degular Text", sans-serif;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.about-img {
+  display: inline-block;
+  *display: inline; /* for older IE */
+  *zoom: 1; /* for older IE */
+  height: 0.9em;
+  /* width: auto; */
+  width: 1.3em;
+  vertical-align: baseline;
+
+}
+
+.about-link {
+   white-space: nowrap;
+   color: #E4E2DB;
+
+}
+
+.about-link:hover {
+   color: #D9FA59;
+   text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+ /* HOVER ANIMATION */
+.action-item {
+  background-color: black;
+  transition: all .2s ease-in-out;
+  overflow: hidden;
+}
+
+.action-item:hover {
+  background-color: #D9FA59;
+  transform: scale(1.01);
+}
+
+.action-item:hover mark {
+  background-color: #000;
+  color: #fff;
+}
+
+
+.action-item:hover .action-title, .action-item:hover .action-text2 {
+  /* background-color: #000; */
+  color: #000;
 }

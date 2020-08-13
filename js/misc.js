@@ -11,3 +11,12 @@ function closeSplash() {
   document.body.scroll = "yes";
   // document.documentElement.style.overflow = 'hidden';
 }
+
+// check close window parameter
+const queryString = window.location.search;
+// console.log(queryString);
+const urlParams = new URLSearchParams(queryString);
+const noSplash = urlParams.get('home');
+if (noSplash == 'true'){
+  closeSplash();
+}
