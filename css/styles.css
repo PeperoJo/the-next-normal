@@ -41,7 +41,7 @@
   /* height: 28px;
   width: 620px; */
   color: #E4E2DB;
-  font-family: "Degular Text", sans-serif;
+  font-family: degular-text, sans-serif;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 0;
@@ -53,12 +53,13 @@
   /* height: 216px;
   width: 940px; */
   color: #E4E2DB;
-  font-family: "Degular Display", sans-serif;
-  font-size: 60px;
+  font-family: degular-display, sans-serif;
+  font-style: normal;
+  font-size: 72px;
   font-weight: 600;
   letter-spacing: 0;
   line-height: 72px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 
 }
 
@@ -243,7 +244,7 @@ mark {
   height: 40px;
   width: 596px;
   color: #E4E2DB;
-  font-family: "Degular Text", sans-serif;
+  font-family: degular-text, sans-serif;
   font-size: 33px;
   letter-spacing: 0;
   line-height: 40px;
@@ -254,7 +255,7 @@ mark {
   height: 21px;
   width: 220px;
   color: #000000;
-  font-family: "Degular Text", sans-serif;
+  font-family: degular-text, sans-serif;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0;
@@ -267,7 +268,7 @@ mark {
   height: 200px;
   width: 940px;
   color: #000000;
-  font-family: "Degular Text", sans-serif;
+  font-family: degular-text, sans-serif;
   font-weight: 300;
   font-size: 36px;
   letter-spacing: 0;
@@ -278,7 +279,7 @@ mark {
   /* height: 216px;
   width: 380px; */
   color: #E4E2DB;
-  font-family: "Degular Display", sans-serif;
+  font-family: degular-display, sans-serif;
   text-transform: uppercase;
 
   font-size: 58px;
@@ -304,7 +305,7 @@ margin-bottom: auto;
   height: 128px;
   width: 300px;
   color: #E4E2DB;
-  font-family: "Degular Text", sans-serif;
+  font-family: degular-text, sans-serif;
   font-size: 22px;
   font-weight: 300;
   letter-spacing: 0;
@@ -332,7 +333,7 @@ margin-bottom: auto;
 
 .footer-icon {
   color: #E4E2DB;
-  font-family: "Degular Display", sans-serif;
+  font-family: degular-display, sans-serif;
   /* text-transform: uppercase; */
   font-size: 35px;
   font-weight: bold;
@@ -342,7 +343,7 @@ margin-bottom: auto;
 
 .top-btn {
   color: #D9FA59;
-  font-family: "Degular Display", sans-serif;
+  font-family: degular-display, sans-serif;
   /* text-transform: uppercase; */
   font-weight: bold;
   /* font-size: 35px; */
@@ -382,7 +383,7 @@ margin-bottom: auto;
 
   /* white-space:nowrap; */
   color: #E4E2DB;
-  font-family: "Degular Text", sans-serif;
+  font-family: degular-text, sans-serif;
   font-weight: 300;
   font-size: 22px;
 }
@@ -404,7 +405,7 @@ margin-bottom: auto;
 .action-subhead {
 
 color: #E4E2DB;
-font-family: "Degular Text", sans-serif;
+font-family: degular-text, sans-serif;
 font-size: 43px;
 font-weight: bold;
 letter-spacing: 0;
@@ -415,7 +416,7 @@ text-transform: uppercase;
 
 .action-text {
   color: #E4E2DB;
-font-family: "Degular Text", sans-serif;
+font-family: degular-text, sans-serif;
 font-size: 24px;
 font-weight: 300;
 letter-spacing: 0;
@@ -425,7 +426,7 @@ line-height: 32px;
 .action-emphasis{
   color: #E4E2DB;
   font-weight: 300;
-  font-family: "Degular Text", sans-serif;
+  font-family: degular-text, sans-serif;
   font-size: 48px;
   letter-spacing: 0;
   line-height: 52px;
@@ -439,7 +440,7 @@ line-height: 32px;
   /* height: 216px;
   width: 940px; */
   color: #D9FA59;
-  font-family: "Degular Display", sans-serif;
+  font-family: degular-display, sans-serif;
   font-size: 60px;
   font-weight: 600;
   letter-spacing: 0;
@@ -451,18 +452,18 @@ line-height: 32px;
 .about-us {
 
   color: #E4E2DB;
-  font-family: "Degular Text", sans-serif;
-  font-size: 40px;
+  font-family: degular-text, sans-serif;
+  font-size: 48px;
   letter-spacing: 0;
-  line-height: 45px;
+  line-height: 52px;
   font-weight: 300;
 
 }
 
 .about-desc {
   color: #E4E2DB;
-  font-family: "Degular Text", sans-serif;
-  font-size: 17px;
+  font-family: degular-text, sans-serif;
+  font-size: 24px;
   letter-spacing: 0;
   line-height: 32px;
 }
@@ -473,7 +474,7 @@ line-height: 32px;
   *zoom: 1; /* for older IE */
   height: 0.9em;
   /* width: auto; */
-  width: 1.3em;
+  width: 1.4em;
   vertical-align: baseline;
 
 }
@@ -536,3 +537,77 @@ line-height: 32px;
 .action-item:hover .overlay {
   opacity: 0;
 } */
+
+.pledgepage {
+  margin-top: 125px;
+  /* margin-bottom: -20px; */
+  /* overflow: hidden; */
+}
+
+.ppage {
+  background-color: white;
+    border: 20px solid #D9FA59;
+    border-bottom: none;
+}
+
+
+.pledge-header {
+
+  color: #000000;
+  font-family: degular-display, sans-sans-serif;
+  font-size: 72px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 72px;
+  text-transform: uppercase;
+
+}
+
+.pledge-consumer {
+
+  color: #000000;
+  font-family: degular-text, sans-serif;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.pledge-option {
+  font-family: degular-text, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 52px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.active {
+  color: #000000;
+
+}
+
+.submit {
+  margin-top: 150px;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+input::placeholder {
+  color: #B7B5AC;
+font-family: degular-text, sans-serif;
+font-size: 16px;
+letter-spacing: 0;
+line-height: 24px;
+}
+
+.pledge-button {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}

@@ -86,7 +86,7 @@ bodymain.innerHTML = navmenu + bodymain.innerHTML;
 
 // FOOTER
 var footer = `
-<div class="bg-black text-white">
+<div class="bg-black text-white" id="footerline">
 <footer class="container py-5">
   <div class="row">
     <div class="col-12 col-md-5 footer-icon">
