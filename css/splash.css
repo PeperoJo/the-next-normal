@@ -74,7 +74,7 @@
   /* height: 240px;
   width: 959px; */
   color: #E4E2DB;
-  font-family: "Degular Display", sans-serif;
+  font-family: degular-display, sans-serif;
   font-size: 160px;
   font-weight: 600;
   letter-spacing: 0;
@@ -113,7 +113,7 @@
   height: 104px;
   width: 645px;
   color: #E4E2DB;
-  font-family: "Degular Text", sans-serif;
+  font-family: degular-text, sans-serif;
   font-size: 48px;
   letter-spacing: 2px;
   line-height:52px;
