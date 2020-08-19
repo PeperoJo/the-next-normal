@@ -79,8 +79,8 @@
   padding-bottom: 5rem;
 }
 
-.socialicons {
-  padding-right: 25px;
+.socialicons:hover {
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -147,12 +147,15 @@ mark {
   background-color: #D9FA59;
   color: black;
   padding: 0 0.06em;
+  padding-bottom: 0.1em;
   /* margin-top: -10px;
   overflow: hidden;  */
   /* line-height: 1; */
   /* height: 10px; */
   /* height: 0.5em; */
+  display: inline-block;
   /* line-height: 0.5em; */
+  /* line-height: 0.55 !important; */
 }
 
 .m2 {

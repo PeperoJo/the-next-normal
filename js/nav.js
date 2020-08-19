@@ -78,15 +78,15 @@ var navmenu = `
     <a href="about.html" class="smalllink" >Contact</a>
 
     <div class="col-12 pt-3">
-      <a class="pr-4" href="http://www.facebook.com/">
+      <a class="socialicons pr-4" href="http://www.facebook.com/">
 
           <embed src="img/SVGs/FaceBook.svg" type="image/svg+xml">
       </a>
-      <a class="pr-4" href="http://www.twitter.com/">
+      <a class="socialicons pr-4" href="http://www.twitter.com/">
 
           <embed src="img/SVGs/Twitter.svg" type="image/svg+xml">
       </a>
-      <a class="" href="http://www.youtube.com/">
+      <a class="socialicons " href="http://www.youtube.com/">
 
           <embed src="img/SVGs/Youtube.svg" type="image/svg+xml">
       </a>
