@@ -12,7 +12,8 @@
   overflow-x: hidden; /* Disable horizontal scroll */
   transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 
-  background: url('../img/InitialMoment_PicBG_Div.jpg');
+  /* background: url('../img/InitialMoment_PicBG_Div.jpg'); */
+  background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -74,10 +75,10 @@
   width: 959px; */
   color: #E4E2DB;
   font-family: "Degular Display", sans-serif;
-  font-size: 140px;
+  font-size: 160px;
   font-weight: 600;
   letter-spacing: 0;
-  line-height: 85%;
+  line-height: 120px;
   text-transform: uppercase;
 
 }
@@ -86,7 +87,7 @@
   /* height: 240px;
   width: 959px; */
   color: #E4E2DB;
-  font-family: "Degular Display", sans-serif;
+  font-family: degular-display, sans-serif;
   font-size: 130px;
   font-weight: 600;
   letter-spacing: 0;
@@ -95,13 +96,25 @@
 
 }
 
+.splash-banner3 {
+  /* height: 240px;
+  width: 959px; */
+  color: #E4E2DB;
+  font-family: degular-display, sans-serif;
+  font-size: 160px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 120px;
+  text-transform: uppercase;
+
+}
 
 .splash-sub {
   height: 104px;
   width: 645px;
   color: #E4E2DB;
   font-family: "Degular Text", sans-serif;
-  font-size: 45px;
+  font-size: 48px;
   letter-spacing: 2px;
-  line-height:120%;
+  line-height:52px;
 }

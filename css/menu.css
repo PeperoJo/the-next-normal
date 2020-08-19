@@ -24,26 +24,46 @@
   margin: 0 auto;
   width: 100%; /* 100% width */
   text-align: center; /* Centered text/links */
-  margin-top: 150px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  margin-top: 100px; /* 30px top margin to avoid conflict with the close button on smaller screens */
 }
 
 /* The navigation links inside the overlay */
-.overlay a {
-  padding: 8px;
+.overlay .overlay-content a {
+  /* padding: 8px; */
   text-decoration: none;
-  font-size: 30px;
+  font-size: 48px;
   color: #818181;
   display: block; /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
 
-  font-family: 'Object Sans', sans-serif;
-  font-weight: 600;
+  font-family: degular-text, sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
+  line-height: 52px;
 }
 
 /* When you mouse over the navigation links, change their color */
 .overlay a:hover, .overlay a:focus {
   color: #D9FA59;
+}
+
+.small {
+  text-align: center;
+  margin-top: 175px;
+}
+
+.smalllink {
+font-size: 24px !important;
+text-transform: lowercase !important;
+font-weight: bold;
+letter-spacing: 0;
+line-height: 32px;
+color: #818181;
+
+}
+
+.smalllink:hover {
+  text-decoration: none;
 }
 
 /* Position the close button (top right corner) */
@@ -52,6 +72,14 @@
   top: 20px;
   left: 45px;
   font-weight: 200;
+  color: #818181;
+  /* width: 50px; */
+  /* font-size: 60px !important; */
+}
+
+.overlay .closebtn:hover {
+  text-decoration: none;
+  color: #D9FA59;
   /* width: 50px; */
   /* font-size: 60px !important; */
 }

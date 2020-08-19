@@ -71,10 +71,26 @@ var navmenu = `
       <a href="action1.html">Action 1</a>
       <a href="action2.html">Action 2</a>
       <a href="action3.html">Action 3</a>
-      <a href="pledge.html">Pledge</a>
-
-      <a href="about.html">About</a>
+      <a href="pledge.html">→ Sign the Pledge ←</a>
     </div>
+    <div class="small">
+    <a href="about.html" class="smalllink" >Who We Are</a><br>
+    <a href="about.html" class="smalllink" >Contact</a>
+
+    <div class="col-12 pt-3">
+      <a class="pr-4" href="http://www.facebook.com/">
+          <img src="img/SVGs/Facebook.svg" type="image/svg+xml"></img>
+      </a>
+      <a class="pr-4" href="http://www.twitter.com/">
+          <img src="img/SVGs/Twitter.svg" type="image/svg+xml"></img>
+      </a>
+      <a class="" href="http://www.youtube.com/">
+          <img src="img/SVGs/YouTube.svg" type="image/svg+xml"></img>
+      </a>
+    </div>
+
+    </div>
+
   </div>
   `;
 
@@ -96,31 +112,31 @@ var footer = `
     <!-- <div class="col-6 col-md">
       <h5>Features</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="https://getbootstrap.com/docs/4.0/examples/product/#">Cool stuff</a></li>
-        <li><a class="text-muted" href="https://getbootstrap.com/docs/4.0/examples/product/#">Random feature</a></li>
-        <li><a class="text-muted" href="https://getbootstrap.com/docs/4.0/examples/product/#">Team feature</a></li>
-        <li><a class="text-muted" href="https://getbootstrap.com/docs/4.0/examples/product/#">Stuff for developers</a></li>
-        <li><a class="text-muted" href="https://getbootstrap.com/docs/4.0/examples/product/#">Another one</a></li>
-        <li><a class="text-muted" href="https://getbootstrap.com/docs/4.0/examples/product/#">Last time</a></li>
+        <li><a class="footer-link" href="https://getbootstrap.com/docs/4.0/examples/product/#">Cool stuff</a></li>
+        <li><a class="footer-link" href="https://getbootstrap.com/docs/4.0/examples/product/#">Random feature</a></li>
+        <li><a class="footer-link" href="https://getbootstrap.com/docs/4.0/examples/product/#">Team feature</a></li>
+        <li><a class="footer-link" href="https://getbootstrap.com/docs/4.0/examples/product/#">Stuff for developers</a></li>
+        <li><a class="footer-link" href="https://getbootstrap.com/docs/4.0/examples/product/#">Another one</a></li>
+        <li><a class="footer-link" href="https://getbootstrap.com/docs/4.0/examples/product/#">Last time</a></li>
       </ul>
     </div> -->
 
     <div class="col-6 col-md-2">
       <!-- <h5>Resources</h5> -->
       <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="https://getbootstrap.com/docs/4.0/examples/product/#">Facebook</a></li>
-        <li><a class="text-muted" href="https://getbootstrap.com/docs/4.0/examples/product/#">Twitter</a></li>
-        <li><a class="text-muted" href="https://getbootstrap.com/docs/4.0/examples/product/#">Instagram</a></li>
-        <li><a class="text-muted" href="https://getbootstrap.com/docs/4.0/examples/product/#">Youtube</a></li>
+        <li><a class="footer-link" href="https://getbootstrap.com/docs/4.0/examples/product/#">Facebook</a></li>
+        <li><a class="footer-link" href="https://getbootstrap.com/docs/4.0/examples/product/#">Twitter</a></li>
+        <li><a class="footer-link" href="https://getbootstrap.com/docs/4.0/examples/product/#">Instagram</a></li>
+        <li><a class="footer-link" href="https://getbootstrap.com/docs/4.0/examples/product/#">Youtube</a></li>
       </ul>
     </div>
     <div class="col-6 col-md-2">
       <!-- <h5>Resources</h5> -->
       <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="about.html">About</a></li>
-        <li><a class="text-muted" href="about.html">Contact</a></li>
-        <li><a class="text-muted" href="pledge.html">Sign the Pledge</a></li>
-        <li><a class="text-muted" href="#">Hear our Voice</a></li>
+        <li><a class="footer-link" href="about.html">Who We Are</a></li>
+        <li><a class="footer-link" href="about.html">Contact</a></li>
+        <li><a class="footer-link" href="pledge.html">Sign the Pledge</a></li>
+        <li><a class="footer-link" href="#">Meet Gen-Z</a></li>
       </ul>
     </div>
     <div class="col-6 col-md-2">
@@ -130,9 +146,9 @@ var footer = `
       <ul class="list-unstyled text-small">
 
         <li><div class="top-btn" onclick="location.href='#top';" style="cursor: pointer;">↑<br>Top</div></li>
-        <!-- <li><a class="text-muted" href="https://getbootstrap.com/docs/4.0/examples/product/#">Locations</a></li>
-        <li><a class="text-muted" href="https://getbootstrap.com/docs/4.0/examples/product/#">Privacy</a></li>
-        <li><a class="text-muted" href="https://getbootstrap.com/docs/4.0/examples/product/#">Terms</a></li> -->
+        <!-- <li><a class="footer-link" href="https://getbootstrap.com/docs/4.0/examples/product/#">Locations</a></li>
+        <li><a class="footer-link" href="https://getbootstrap.com/docs/4.0/examples/product/#">Privacy</a></li>
+        <li><a class="footer-link" href="https://getbootstrap.com/docs/4.0/examples/product/#">Terms</a></li> -->
       </ul>
     </div>
   </div>
