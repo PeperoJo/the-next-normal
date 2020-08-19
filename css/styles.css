@@ -306,7 +306,7 @@ mark {
 }
 
 #pledgebox {
-  background: url('../img/JPGs/Pledge_Img@1x.jpg') no-repeat center center fixed;
+  background: url('../img/JPGs/Pledge_Img.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -344,6 +344,14 @@ margin-bottom: auto;
   border-bottom: 1px solid;
   color: #D9FA59;
 }
+
+.play-btn {
+  /* text-decoration: underline; */
+  font-weight: bold;
+  text-decoration: none;
+  color: #D9FA59;
+}
+
 
 .underline-btn:hover {
   color: #D9FA59;
@@ -533,7 +541,13 @@ line-height: 32px;
 }
 
 
-
+.arrow {
+  color: #D9FA59;
+  font-weight: bold;
+}
+.action-item:hover .arrow {
+  color: black !important;
+}
 
 
 
@@ -555,6 +569,8 @@ line-height: 32px;
   background-color: #000;
   color: #fff;
 }
+
+
 
 
 .action-item:hover .action-title, .action-item:hover .action-text2 {
@@ -651,4 +667,8 @@ line-height: 24px;
   margin-top: 50px;
   margin-bottom: 50px;
 
+}
+
+.playicon {
+  padding-bottom: -5px;
 }
