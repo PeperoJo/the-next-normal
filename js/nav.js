@@ -79,12 +79,18 @@ var navmenu = `
 
     <div class="col-12 pt-3">
       <a class="pr-4" href="http://www.facebook.com/">
+        <object type="image/svg+xml" data="img/SVGs/Facebook.svg"></object>
+
           <embed src="img/SVGs/Facebook.svg" type="image/svg+xml">
       </a>
       <a class="pr-4" href="http://www.twitter.com/">
+      <object type="image/svg+xml" data="img/SVGs/Twitter.svg"></object>
+
           <embed src="img/SVGs/Twitter.svg" type="image/svg+xml">
       </a>
       <a class="" href="http://www.youtube.com/">
+      <object type="image/svg+xml" data="img/SVGs/YouTube.svg"></object>
+
           <embed src="img/SVGs/YouTube.svg" type="image/svg+xml">
       </a>
     </div>
