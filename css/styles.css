@@ -408,9 +408,9 @@ margin-bottom: auto;
 .pledgesticker {
   z-index: 1000;
   position: fixed;
-  bottom: 10%;
+  bottom: 175px;
   right: 90px;;
-  width: 160px;
+  width: 120px;
 }
 
 .action-container {
@@ -674,4 +674,60 @@ line-height: 24px;
 
 .playicon {
   padding-bottom: -5px;
+}
+
+.datapic {
+  width: 100%;
+}
+
+ul .pledgelist{
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.2em;
+}
+ul .pledgelist li:before {
+	content: "→";
+  font-family: degular-text, sans-serif;
+	position: absolute;
+	left: 0;
+}
+
+.next-action {
+  color: #D9FA59;
+  font-family: degular-text, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 21px;
+  text-align: center;
+  display:inline-block;
+  text-transform: uppercase;
+}
+
+.next-title {
+  color: #E4E2DB;
+  font-family: degular-text, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 52px;
+  display:inline-block;
+  text-transform: uppercase;
+}
+
+.sharepage {
+
+  color: #FFFFFF;
+  font-family: degular-text, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.shareicons {
+  text-decoration: none;
+  width: 10px;
 }
