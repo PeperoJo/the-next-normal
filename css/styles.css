@@ -639,7 +639,8 @@ line-height: 32px;
 }
 
 .ppage {
-  background-color: white;
+  /* background: linear-gradient(180deg, #000 50%, white 50%); */
+  background: white;
     border: 20px solid #D9FA59;
     border-bottom: none;
 }
@@ -748,6 +749,7 @@ ul .pledgelist li:before {
   line-height: 52px;
   display:inline-block;
   text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
 }
 
 .sharepage {
@@ -834,4 +836,9 @@ iframe {
 
 .next-title:hover {
   color: #D9FA59;
+}
+
+.pledgeselect {
+  position: absolute;
+  left: 10px;
 }

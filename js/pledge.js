@@ -5,6 +5,9 @@ function showBrand(){
   document.getElementById('brand-pledge').classList.remove('d-none');
   document.getElementById('indiv-pledge').classList.add('d-none');
 
+  document.getElementById('arrowBrand').classList.remove('d-none');
+  document.getElementById('arrowMyself').classList.add('d-none');
+
 
 }
 
@@ -14,6 +17,9 @@ function showConsumer(){
 
   document.getElementById('brand-pledge').classList.add('d-none');
   document.getElementById('indiv-pledge').classList.remove('d-none');
+
+  document.getElementById('arrowBrand').classList.add('d-none');
+  document.getElementById('arrowMyself').classList.remove('d-none');
 }
 
 showConsumer();
