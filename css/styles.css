@@ -70,8 +70,22 @@
   height: 0.8em;
   /* width: auto; */
   width: 2.2em;
-  vertical-align: baseline;
+  vertical-align: top;
+  opacity: 0;
+  transition: all .2s ease-in-out;
 
+}
+
+.banner-img-holder {
+
+  display: inline-block;
+  *display: inline; /* for older IE */
+  *zoom: 1; /* for older IE */
+  height: 0.8em;
+  width: 2.2em;
+  vertical-align: bottom;
+
+  background-color: #D9FA59;
 }
 
 .banner-container {
@@ -133,15 +147,30 @@
 }
 
 
-.btn-outline-green {
+.btn-splash-green {
+  position: relative;
+  top: 0;
   color: #D9FA59;
-  border-color: #D9FA59;
+  transition: all .2s ease-in-out;
+  font-family: degular-text, sans-serif;
+font-size: 16px;
+font-weight: bold;
+  /* border-color: #D9FA59; */
 }
 
-.btn-outline-green:hover {
-  color: black;
-  background-color: #D9FA59;
+.btn-splash-green:hover {
+  color: #E4E2DB;
+  /* background-color: #D9FA59; */
+ top: 10px;
+transform: scale(1.15);
 }
+
+.downarrow {
+  font-family: degular-text, sans-serif;
+font-size: 24px;
+font-weight: bold;
+}
+
 
 mark {
   background-color: #D9FA59;
@@ -178,7 +207,8 @@ mark {
 }
 
 #mainbanner2 {
-  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .65)), url('../img/JPGs/Action1_Landing_Img@1x.jpg');
+  /* background: url('../img/JPGs/Pledge_Img.jpg') no-repeat center center fixed; */
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .65)), url('../img/JPGs/Action1_Landing_Img@1x.jpg') no-repeat center center fixed;
 
   /* background: url('../img/JPGs/Action1_Landing_Img@1x.jpg'); */
   -webkit-background-size: cover;
@@ -188,7 +218,7 @@ mark {
 }
 
 #mainbanner3 {
-  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .65)), url('../img/JPGs/Action2_Landing_Img@1x.jpg');
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .65)), url('../img/JPGs/Action2_Landing_Img@1x.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -196,7 +226,7 @@ mark {
 }
 
 #mainbanner4 {
-  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .65)), url('../img/JPGs/Action3_Landing_Img@1x.jpg');
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .65)), url('../img/JPGs/Action3_Landing_Img@1x.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -581,6 +611,10 @@ line-height: 32px;
   color: #000;
 }
 
+.action-item:hover .banner-img {
+  opacity: 1;
+}
+
 /* .overlay {
   position: absolute;
   top: 0;
@@ -742,4 +776,62 @@ iframe {
     height: 50vw;
     border: none !important;
 
+}
+
+.vsa-button:hover {
+  background-color: #ffffff00;
+  color: #c7fe1a;
+}
+
+.vsa-button.button-2 {
+  background-color: #E4E2DB;
+  color: black;
+  cursor:pointer;
+  border: 1px solid black;
+  color: #000000;
+  font-family: degular-text,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+}
+
+.vsa-button.button-2:hover {
+  background-color: #c7fe1a;
+  color: #050505;
+  text-decoration:none;
+}
+
+.vsa-button.button-3 {
+  background-color: #dbddd8;
+}
+
+.vsa-button.button-3:hover {
+  background-color: #050505;
+  color: #dbddd8;
+}
+
+.w-button{
+  display:inline-block;
+  padding:9px 15px;
+  /* background-color: #ffffff00; */
+  color:white;
+  border:0;
+  line-height:inherit;
+  text-decoration:none;
+  cursor:pointer;
+  border-radius:0
+}
+
+.bg-pledge {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .65)), url('../img/JPGs/Pledge_BG.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.next-title:hover {
+  color: #D9FA59;
 }
