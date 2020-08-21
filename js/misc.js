@@ -6,6 +6,7 @@ document.body.scroll = "no";
 
 function closeSplash() {
   document.getElementById("mySplash").style.opacity ="0";
+  document.getElementById("mySplash").style.top ="-850px";
   document.getElementById("mySplash").style.visibility ="hidden";
   document.documentElement.style.overflow = 'scroll';
   document.body.scroll = "yes";
