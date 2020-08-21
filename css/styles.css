@@ -798,7 +798,7 @@ iframe {
 }
 
 .vsa-button.button-2:hover {
-  background-color: #c7fe1a;
+  background-color: #D9FA59;
   color: #050505;
   text-decoration:none;
 }
@@ -825,7 +825,7 @@ iframe {
 }
 
 .bg-pledge {
-  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .65)), url('../img/JPGs/Pledge_BG.jpg');
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .65)), url('../img/JPGs/Pledge_BG.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
