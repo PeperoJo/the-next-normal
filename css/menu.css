@@ -39,7 +39,7 @@
   font-family: degular-text, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 52px;
+  line-height: 72px;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -49,7 +49,7 @@
 
 .small {
   text-align: center;
-  margin-top: 175px;
+  margin-top: 135px;
 }
 
 .smalllink {
