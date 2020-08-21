@@ -177,8 +177,8 @@ mark {
   color: black;
   padding: 0 0.06em;
   padding-bottom: 0.1em;
-  /* margin-top: -10px;
-  overflow: hidden;  */
+  margin-top: 10px;
+  /* overflow: hidden;  */
   /* line-height: 1; */
   /* height: 10px; */
   /* height: 0.5em; */
